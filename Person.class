@@ -1,0 +1,25 @@
+public class Person {
+	
+	// private variables declaration
+	private String firstname;
+	private String lastname;
+	
+	// public get method to read the variables from other classes
+	public String getFirstname() {
+		return firstname;
+	}
+	
+	public String getLastname() {
+		return lastname;
+	}
+	
+	// public set method to use from other classes
+	public void setFirstname( String firstname ) {
+		this.firstname = firstname;
+	}
+	
+	public void setLastname( String lastname ) {
+		this.lastname = lastname;
+	}
+	
+}
